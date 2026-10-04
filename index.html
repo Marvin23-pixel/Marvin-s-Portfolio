@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="web_standard" name="shell-type"/>
+<title>Marvelous Nsikak Solomon — Frontend Developer &amp; Software Engineering Student</title>
+<meta content="Portfolio of Marvelous Nsikak Solomon, frontend developer and software engineering student building responsive, interactive web interfaces." name="description"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+
+<!-- Custom styles -->
+<link href="style.css" rel="stylesheet"/>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-primary-fixed-variant":"#454748","on-tertiary-fixed":"#1f1b18","surface-container-high":"#292a2d","on-tertiary-container":"#6a6360","primary-container":"#e2e2e3","primary":"#ffffff","on-background":"#e3e2e6","surface-container-low":"#1b1b1f","outline-variant":"#444749","on-error":"#690005","secondary":"#c6c6cf","tertiary-container":"#ebe0dc","error":"#ffb4ab","secondary-fixed-dim":"#c6c6cf","on-surface":"#e3e2e6","tertiary-fixed-dim":"#cec4c1","outline":"#8e9193","secondary-container":"#45464e","surface-container-lowest":"#0d0e11","surface-bright":"#38393c","surface-container-highest":"#343538","primary-fixed-dim":"#c6c6c7","inverse-on-surface":"#2f3034","on-primary":"#2f3132","on-primary-fixed":"#1a1c1d","on-surface-variant":"#c4c7c9","tertiary":"#ffffff","surface-variant":"#343538","background":"#121316","tertiary-fixed":"#ebe0dc","inverse-primary":"#5d5e60","on-error-container":"#ffdad6","on-secondary-fixed-variant":"#45464e","on-tertiary-fixed-variant":"#4c4543","on-tertiary":"#352f2d","primary-fixed":"#e2e2e3","on-secondary":"#2f3037","on-secondary-fixed":"#1a1b22","on-primary-container":"#636466","surface-dim":"#121316","inverse-surface":"#e3e2e6","surface-container":"#1f1f23","error-container":"#93000a","surface-tint":"#c6c6c7","secondary-fixed":"#e2e1eb","surface":"#121316","on-secondary-container":"#b4b4bd"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin-desktop":"4rem","space-xs":"0.25rem","space-xl":"3.5rem","gutter":"1.5rem","space-sm":"0.5rem","margin":"1.25rem","gutter-desktop":"2.5rem","space-md":"1rem","space-lg":"2rem"},fontFamily:{"label-sm":["JetBrains Mono"],"label-md":["JetBrains Mono"],"headline-sm":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-lg":["Newsreader"],"display-mobile":["Newsreader"],"display":["Newsreader"],"label-lg":["JetBrains Mono"],"body-sm":["Plus Jakarta Sans"],"headline-md":["Newsreader"],"body-md":["Plus Jakarta Sans"],"headline-lg-mobile":["Newsreader"]},fontSize:{"label-sm":["0.6875rem",{"lineHeight":"1.35","letterSpacing":"0.08em","fontWeight":"400"}],"label-md":["0.75rem",{"lineHeight":"1.4","letterSpacing":"0.06em","fontWeight":"400"}],"headline-sm":["1.25rem",{"lineHeight":"1.4","letterSpacing":"-0.01em","fontWeight":"600"}],"body-lg":["1.125rem",{"lineHeight":"1.65","letterSpacing":"-0.005em","fontWeight":"400"}],"headline-lg":["3rem",{"lineHeight":"1.15","letterSpacing":"-0.02em","fontWeight":"400"}],"display-mobile":["2.75rem",{"lineHeight":"1.12","letterSpacing":"-0.02em","fontWeight":"400"}],"display":["4.5rem",{"lineHeight":"1.08","letterSpacing":"-0.03em","fontWeight":"400"}],"label-lg":["0.875rem",{"lineHeight":"1.4","letterSpacing":"0.04em","fontWeight":"500"}],"body-sm":["0.8125rem",{"lineHeight":"1.55","letterSpacing":"0.005em","fontWeight":"400"}],"headline-md":["2rem",{"lineHeight":"1.25","letterSpacing":"-0.015em","fontWeight":"400"}],"body-md":["0.9375rem",{"lineHeight":"1.6","letterSpacing":"0em","fontWeight":"400"}],"headline-lg-mobile":["2rem",{"lineHeight":"1.2","letterSpacing":"-0.015em","fontWeight":"400"}]}}}};</script>
+</head>
+
+<body class="bg-background font-body-md text-on-surface antialiased selection:bg-surface-container-highest selection:text-primary min-h-screen flex flex-col justify-between" id="top">
+
+<header class="fixed top-0 left-0 w-full z-50 bg-background/90 backdrop-blur-md border-b border-outline-variant/30" id="siteHeader">
+<div class="h-20 max-w-7xl mx-auto px-margin md:px-gutter-desktop flex items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<a class="group flex flex-col" href="#top">
+<span class="font-label-lg text-label-lg tracking-widest text-primary uppercase">M. N. Solomon</span>
+<span class="font-label-sm text-label-sm text-outline tracking-wider uppercase mt-0.5">Frontend &amp; Software Eng.</span>
+</a>
+<div class="hidden xl:flex items-center gap-space-xs pl-space-md ml-space-xs border-l border-outline-variant/40">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Available for Q2/Q3 Roles &amp; Freelance</span>
+</div>
+</div>
+<div class="flex items-center gap-space-lg">
+<nav aria-label="Primary" class="hidden md:flex items-center gap-space-md" data-active-classes="text-primary border-b border-primary pb-0.5" id="desktopNav">
+<a aria-current="page" class="font-label-md text-label-md uppercase tracking-wider transition-colors py-1 text-primary border-b border-primary pb-0.5" data-path="about" href="#about">About</a>
+<a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-colors py-1" data-path="skills" href="#skills">Skills</a>
+<a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-colors py-1" data-path="projects" href="#projects">Projects</a>
+<a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-colors py-1" data-path="experience" href="#experience">Experience</a>
+<a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-colors py-1" data-path="contact" href="#contact">Contact</a>
+</nav>
+<div class="flex items-center gap-space-sm pl-space-sm">
+<button aria-controls="mobileMenu" aria-expanded="false" aria-label="Toggle navigation menu" class="md:hidden w-10 h-10 flex items-center justify-center text-primary" id="menuToggle" type="button">
+<span class="material-symbols-outlined" id="menuIcon">menu</span>
+</button>
+<a aria-label="Back to top" class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0" href="#top">
+<span class="material-symbols-outlined text-on-primary text-[18px]">person</span>
+</a>
+</div>
+</div>
+</div>
+
+<!-- Mobile navigation -->
+<div class="hidden md:hidden border-t border-outline-variant/30 bg-background/95 backdrop-blur-md" id="mobileMenu">
+<nav aria-label="Mobile" class="px-margin py-space-sm flex flex-col">
+<a class="py-3 font-label-md text-label-md uppercase tracking-wider text-primary border-b border-outline-variant/20" data-path="about" href="#about">About</a>
+<a class="py-3 font-label-md text-label-md uppercase tracking-wider text-on-surface-variant border-b border-outline-variant/20" data-path="skills" href="#skills">Skills</a>
+<a class="py-3 font-label-md text-label-md uppercase tracking-wider text-on-surface-variant border-b border-outline-variant/20" data-path="projects" href="#projects">Projects</a>
+<a class="py-3 font-label-md text-label-md uppercase tracking-wider text-on-surface-variant border-b border-outline-variant/20" data-path="experience" href="#experience">Experience</a>
+<a class="py-3 font-label-md text-label-md uppercase tracking-wider text-on-surface-variant" data-path="contact" href="#contact">Contact</a>
+</nav>
+</div>
+
+<!-- Scroll progress -->
+<div aria-hidden="true" class="absolute bottom-0 left-0 h-px bg-primary" id="scrollProgress"></div>
+</header>
+
+<main class="w-full pt-20 bg-background flex-1">
+<div class="flex flex-col w-full text-on-surface">
+
+<!-- ==================== HERO SECTION ==================== -->
+<section class="w-full border-b border-outline-variant/30 py-space-xl lg:py-24">
+<div class="max-w-7xl mx-auto px-margin md:px-gutter-desktop">
+<div class="max-w-4xl flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="inline-block w-2 h-2 bg-primary"></span>
+<span class="font-label-sm text-label-sm tracking-widest text-outline uppercase">Software Engineering Student &amp; Frontend Developer</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg lg:text-display text-primary tracking-tight leading-[1.05] mt-space-xs">
+          Hi, I’m Marvelous.<br/>
+<span class="italic font-normal text-on-surface-variant">Frontend Developer</span> &amp; Software Engineering Student.
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mt-space-xs leading-relaxed">
+          I build responsive, interactive, and user-focused web experiences with rigorous attention to code quality, system ergonomics, and clean visual structure.
+        </p>
+<div class="flex flex-wrap items-center gap-space-md pt-space-md">
+<a class="font-label-md text-label-md px-6 py-3 bg-primary text-on-primary hover:bg-surface-tint transition-all uppercase tracking-wider" href="#projects">
+            View My Work [ ↓ ]
+          </a>
+<a class="font-label-md text-label-md px-6 py-3 border border-outline-variant/60 text-primary hover:border-primary hover:bg-surface-container-low transition-all uppercase tracking-wider" href="#contact">
+            Contact Me [ → ]
+          </a>
+</div>
+</div>
+<!-- Quick Meta Strip -->
+<div class="mt-space-xl pt-space-md border-t border-outline-variant/30 grid grid-cols-1 md:grid-cols-3 gap-space-md text-outline font-label-sm text-label-sm">
+<div class="flex items-center gap-space-xs">
+<span class="text-primary font-mono">01 //</span>
+<span>Based in West Africa [WAT / UTC+1]</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="text-primary font-mono">02 //</span>
+<span>Available for Remote &amp; Hybrid Roles</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="text-primary font-mono">03 //</span>
+<span>100% Commitment to Clean Interfaces</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ==================== ABOUT SECTION ==================== -->
+<section class="w-full border-b border-outline-variant/30 py-space-xl scroll-mt-20" id="about">
+<div class="max-w-7xl mx-auto px-margin md:px-gutter-desktop">
+<div class="font-label-sm text-label-sm uppercase tracking-widest text-outline mb-space-lg flex items-center gap-space-xs">
+<span>[ 01 ]</span>
+<span class="h-px w-8 bg-outline-variant/50"></span>
+<span>About</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg lg:gap-gutter-desktop items-start">
+<div class="lg:col-span-5" data-reveal>
+<h2 class="font-headline-md text-headline-md text-primary leading-snug">
+            Balancing rigorous software engineering theory with practical, high-standard frontend craftsmanship.
+          </h2>
+<div class="mt-space-lg flex flex-col gap-space-xs border-t border-outline-variant/30 pt-space-md font-label-sm text-label-sm">
+<div class="flex flex-col py-1.5 border-b border-outline-variant/20">
+<span class="text-outline uppercase text-[10px]">Education</span>
+<span class="text-primary font-medium mt-0.5">B.Sc Software Engineering (In Progress)</span>
+</div>
+<div class="flex flex-col py-1.5 border-b border-outline-variant/20">
+<span class="text-outline uppercase text-[10px]">Discipline</span>
+<span class="text-primary font-medium mt-0.5">Frontend Engineering &amp; Design Systems</span>
+</div>
+<div class="flex flex-col py-1.5">
+<span class="text-outline uppercase text-[10px]">Fieldwork</span>
+<span class="text-primary font-medium mt-0.5">Independent Client Projects &amp; User Interfaces</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-7 flex flex-col gap-space-md font-body-md text-body-md text-on-surface-variant leading-relaxed" data-reveal>
+<p>
+            I operate at the intersection of structural academic foundation and practical client-facing engineering. While actively pursuing my degree in Software Engineering, I design and construct production-ready frontend architectures that prioritize clarity over superfluous decoration.
+          </p>
+<p>
+            My approach treats software interfaces as intentional functional structures. I am deeply interested in sub-second rendering performance, modular design systems, and building intuitive state loops that guide users without distraction or friction.
+          </p>
+<p>
+            Through independent client engagements and specialized custom systems, I have delivered responsive web apps that handle real operational demands—from role-based transaction records to inventory monitoring. Every line of code is structured to ensure longevity, semantic validity, and seamless accessibility across every modern device class.
+          </p>
+<div class="mt-space-sm p-space-md bg-surface-container-lowest border border-outline-variant/40 font-label-sm text-label-sm text-secondary">
+<span class="text-primary font-mono">[ DIRECTIVE ]</span> "Software design is neither decoration nor an afterthought; it is the transparent manifestation of logical integrity and user consideration."
+          </div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ==================== SKILLS / TOOLKIT SECTION ==================== -->
+<section class="w-full border-b border-outline-variant/30 py-space-xl scroll-mt-20 bg-surface-container-lowest/40" id="skills">
+<div class="max-w-7xl mx-auto px-margin md:px-gutter-desktop">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl">
+<div>
+<div class="font-label-sm text-label-sm uppercase tracking-widest text-outline mb-space-xs flex items-center gap-space-xs">
+<span>[ 02 ]</span>
+<span class="h-px w-8 bg-outline-variant/50"></span>
+<span>Technical Toolkit</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-primary">
+            Disciplined Core Competencies
+          </h2>
+</div>
+<p class="font-body-sm text-body-sm text-outline max-w-md">
+          Structured mastery centered on durable foundational standards rather than short-lived framework gimmicks.
+        </p>
+</div>
+<!-- Skills Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-outline-variant/30 border border-outline-variant/30">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest p-space-lg flex flex-col justify-between hover:bg-surface-container-low transition-colors group" data-reveal>
+<div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-outline mb-space-md">
+<span class="group-hover:text-primary transition-colors">01 // DOM</span>
+<span>[ W3C Standard ]</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">HTML5</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Semantic markup hierarchies, WCAG accessibility benchmarks, clean document outlines, and structured SEO metadata.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs border-t border-outline-variant/20 font-label-sm text-label-sm text-outline">
+            A11y • Microdata • Canvas
+          </div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest p-space-lg flex flex-col justify-between hover:bg-surface-container-low transition-colors group" data-reveal>
+<div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-outline mb-space-md">
+<span class="group-hover:text-primary transition-colors">02 // LAYOUT</span>
+<span>[ Style Engine ]</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">CSS3 &amp; Tailwind</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Modern CSS Grid architectures, sub-grid layouts, Flexbox dynamics, custom properties, and fluid typography formulas.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs border-t border-outline-variant/20 font-label-sm text-label-sm text-outline">
+            CSS Grid • Fluid Tokens • Responsive
+          </div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest p-space-lg flex flex-col justify-between hover:bg-surface-container-low transition-colors group" data-reveal>
+<div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-outline mb-space-md">
+<span class="group-hover:text-primary transition-colors">03 // RUNTIME</span>
+<span>[ ECMAScript ]</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">JavaScript (ES6+)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Asynchronous logic, Fetch/REST APIs, DOM manipulation algorithms, immutable state flow, and event-driven patterns.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs border-t border-outline-variant/20 font-label-sm text-label-sm text-outline">
+            Async/Await • Closures • Modules
+          </div>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-container-lowest p-space-lg flex flex-col justify-between hover:bg-surface-container-low transition-colors group" data-reveal>
+<div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-outline mb-space-md">
+<span class="group-hover:text-primary transition-colors">04 // ARCHITECTURE</span>
+<span>[ Component Model ]</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">React</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Declarative component trees, custom hooks, atomic state management, SPA routing, and performance optimization lifecycles.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs border-t border-outline-variant/20 font-label-sm text-label-sm text-outline">
+            Hooks • SPA • Virtual DOM
+          </div>
+</div>
+<!-- Card 5 -->
+<div class="bg-surface-container-lowest p-space-lg flex flex-col justify-between hover:bg-surface-container-low transition-colors group" data-reveal>
+<div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-outline mb-space-md">
+<span class="group-hover:text-primary transition-colors">05 // ERGONOMICS</span>
+<span>[ Adaptive Views ]</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">Responsive Design</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Mobile-first breakpoint scaling, dynamic viewport ergonomics, responsive assets, and high-density retina touch targets.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs border-t border-outline-variant/20 font-label-sm text-label-sm text-outline">
+            Mobile-First • Breakpoints • Touch
+          </div>
+</div>
+<!-- Card 6 -->
+<div class="bg-surface-container-lowest p-space-lg flex flex-col justify-between hover:bg-surface-container-low transition-colors group" data-reveal>
+<div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-outline mb-space-md">
+<span class="group-hover:text-primary transition-colors">06 // WORKFLOW</span>
+<span>[ Source Control ]</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">Git &amp; GitHub</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Atomic commit hygiene, branch isolation, Pull Request reviews, merge resolution, and clean repository maintenance.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs border-t border-outline-variant/20 font-label-sm text-label-sm text-outline">
+            CLI Git • Branching • PR Reviews
+          </div>
+</div>
+</div>
+<!-- Architectural Ethos Strip -->
+<div class="mt-space-md p-space-md bg-surface-container-low border border-outline-variant/30 flex flex-col md:flex-row items-start md:items-center justify-between gap-space-sm font-label-sm text-label-sm" data-reveal>
+<div class="flex items-center gap-space-xs text-primary">
+<span class="material-symbols-outlined text-[18px]">terminal</span>
+<span class="uppercase tracking-wider">ETHOS: Clean markup, predictable state, zero clutter.</span>
+</div>
+<div class="text-outline">
+          // AUDIT PROTOCOL: PASSING 100/100 LIGHTHOUSE CORE
+        </div>
+</div>
+</div>
+</section>
+
+<!-- ==================== SELECTED PROJECTS SECTION ==================== -->
+<section class="w-full border-b border-outline-variant/30 py-space-xl scroll-mt-20" id="projects">
+<div class="max-w-7xl mx-auto px-margin md:px-gutter-desktop">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl">
+<div>
+<div class="font-label-sm text-label-sm uppercase tracking-widest text-outline mb-space-xs flex items-center gap-space-xs">
+<span>[ 03 ]</span>
+<span class="h-px w-8 bg-outline-variant/50"></span>
+<span>Selected Projects</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-primary">
+            Functional Real-World Systems
+          </h2>
+</div>
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">
+          ARCHIVE // 2024 — 2025
+        </span>
+</div>
+<div class="flex flex-col gap-space-xl">
+
+<!-- PROJECT 1: WORKHOUSE -->
+<div class="border border-outline-variant/30 bg-surface-container-lowest overflow-hidden" data-reveal>
+<div class="p-space-md md:p-space-lg border-b border-outline-variant/30 flex flex-wrap items-center justify-between gap-space-sm bg-surface-container-low/50">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm px-2 py-0.5 border border-outline-variant text-primary font-mono">[ 01 ]</span>
+<h3 class="font-headline-sm text-headline-sm text-primary tracking-tight">WORKHOUSE</h3>
+</div>
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Staff Management &amp; Sales Recording Interface</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-0">
+<!-- Left Info Panel -->
+<div class="lg:col-span-5 p-space-md md:p-space-lg flex flex-col justify-between border-b lg:border-b-0 lg:border-r border-outline-variant/30">
+<div class="flex flex-col gap-space-md">
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                  A specialized staff management and sales-recording application interface designed to streamline employee shift monitoring, role-based authentication, and daily sales transaction workflows into an intuitive, low-friction dashboard.
+                </p>
+<div>
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider block mb-space-xs">Technical Composition:</span>
+<div class="flex flex-wrap gap-1.5 font-label-sm text-label-sm">
+<span class="px-2 py-1 bg-surface-container border border-outline-variant/40 text-on-surface">[ React ]</span>
+<span class="px-2 py-1 bg-surface-container border border-outline-variant/40 text-on-surface">[ JavaScript ]</span>
+<span class="px-2 py-1 bg-surface-container border border-outline-variant/40 text-on-surface">[ CSS3 / Tailwind ]</span>
+<span class="px-2 py-1 bg-surface-container border border-outline-variant/40 text-on-surface">[ REST API ]</span>
+<span class="px-2 py-1 bg-surface-container border border-outline-variant/40 text-on-surface">[ Responsive UI ]</span>
+</div>
+</div>
+</div>
+<div class="mt-space-lg pt-space-md border-t border-outline-variant/20 flex items-center gap-space-lg font-label-md text-label-md">
+<a class="text-primary hover:text-secondary flex items-center gap-1 group py-1 border-b border-primary hover:border-secondary transition-colors" data-link="workhouse-demo" href="#">
+<span>Live Demo</span>
+<span class="font-mono text-outline group-hover:text-primary transition-colors">↗</span>
+</a>
+<a class="text-on-surface-variant hover:text-primary flex items-center gap-1 group py-1 border-b border-outline-variant hover:border-primary transition-colors" data-link="workhouse-repo" href="#">
+<span>GitHub Repository</span>
+<span class="font-mono text-outline group-hover:text-primary transition-colors">↗</span>
+</a>
+</div>
+</div>
+<!-- Right Visual Preview Mockup -->
+<div class="lg:col-span-7 bg-surface-container p-space-md md:p-space-lg flex flex-col justify-center">
+<div class="w-full bg-background border border-outline-variant/50 shadow-md">
+<div class="h-8 bg-surface-container-low border-b border-outline-variant/30 px-3 flex items-center justify-between font-label-sm text-[11px] text-outline">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-outline-variant"></span>
+<span class="w-2 h-2 rounded-full bg-outline-variant"></span>
+<span class="w-2 h-2 rounded-full bg-outline-variant"></span>
+<span class="ml-2 font-mono text-on-surface">workhouse.internal/console</span>
+</div>
+<span class="text-emerald-400 font-mono">STATUS: 200 OK</span>
+</div>
+<div class="p-space-md flex flex-col gap-space-md">
+<div class="grid grid-cols-3 gap-2">
+<div class="p-2.5 bg-surface-container-lowest border border-outline-variant/30">
+<span class="text-[10px] font-label-sm text-outline uppercase block">Active Shifts</span>
+<span class="text-headline-sm font-label-lg text-primary">14 / 16</span>
+</div>
+<div class="p-2.5 bg-surface-container-lowest border border-outline-variant/30">
+<span class="text-[10px] font-label-sm text-outline uppercase block">Today's Sales</span>
+<span class="text-headline-sm font-label-lg text-primary">$4,820.50</span>
+</div>
+<div class="p-2.5 bg-surface-container-lowest border border-outline-variant/30">
+<span class="text-[10px] font-label-sm text-outline uppercase block">Sync Rate</span>
+<span class="text-headline-sm font-label-lg text-emerald-400">99.8%</span>
+</div>
+</div>
+<div class="border border-outline-variant/30 text-[11px] font-label-sm overflow-x-auto">
+<div class="grid grid-cols-12 bg-surface-container-low py-1.5 px-3 text-outline border-b border-outline-variant/30">
+<span class="col-span-4 uppercase">Staff Member</span>
+<span class="col-span-3 uppercase">Designation</span>
+<span class="col-span-3 uppercase">Shift State</span>
+<span class="col-span-2 text-right uppercase">Ledger</span>
+</div>
+<div class="divide-y divide-outline-variant/20 bg-surface-container-lowest">
+<div class="grid grid-cols-12 py-2 px-3 items-center">
+<span class="col-span-4 text-primary font-medium">Eleanor Vance</span>
+<span class="col-span-3 text-on-surface-variant">Floor Manager</span>
+<span class="col-span-3 flex items-center gap-1.5 text-emerald-400"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>Active</span>
+<span class="col-span-2 text-right font-mono text-primary">$1,240</span>
+</div>
+<div class="grid grid-cols-12 py-2 px-3 items-center">
+<span class="col-span-4 text-primary font-medium">David K. Mensah</span>
+<span class="col-span-3 text-on-surface-variant">Cashier 02</span>
+<span class="col-span-3 flex items-center gap-1.5 text-emerald-400"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>Active</span>
+<span class="col-span-2 text-right font-mono text-primary">$2,190</span>
+</div>
+<div class="grid grid-cols-12 py-2 px-3 items-center">
+<span class="col-span-4 text-outline font-medium">Amara Okafor</span>
+<span class="col-span-3 text-outline">Inventory Lead</span>
+<span class="col-span-3 flex items-center gap-1.5 text-outline"><span class="w-1.5 h-1.5 rounded-full bg-outline"></span>Off-Duty</span>
+<span class="col-span-2 text-right font-mono text-outline">$1,390</span>
+</div>
+</div>
+</div>
+<div class="p-2 bg-surface-container-lowest border border-outline-variant/30 flex items-center justify-between font-label-sm text-[10px] text-outline">
+<span>[TX_LOG] Last transaction verified via POS-Terminal-4</span>
+<span class="font-mono text-primary" id="mockClock">14:32:09 WAT</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- PROJECT 2: DIGISOL -->
+<div class="border border-outline-variant/30 bg-surface-container-lowest overflow-hidden" data-reveal>
+<div class="p-space-md md:p-space-lg border-b border-outline-variant/30 flex flex-wrap items-center justify-between gap-space-sm bg-surface-container-low/50">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm px-2 py-0.5 border border-outline-variant text-primary font-mono">[ 02 ]</span>
+<h3 class="font-headline-sm text-headline-sm text-primary tracking-tight">DIGISOL</h3>
+</div>
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Enterprise Sales &amp; Administration System</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-0">
+<!-- Left Info Panel -->
+<div class="lg:col-span-5 p-space-md md:p-space-lg flex flex-col justify-between border-b lg:border-b-0 lg:border-r border-outline-variant/30">
+<div class="flex flex-col gap-space-md">
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                  A comprehensive operational interface providing dual workspaces for administrators and frontline staff. Features granular access controls, inventory and revenue reconciliation, and real-time transaction logging with robust local state resilience.
+                </p>
+<div>
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider block mb-space-xs">Technical Composition:</span>
+<div class="flex flex-wrap gap-1.5 font-label-sm text-label-sm">
+<span class="px-2 py-1 bg-surface-container border border-outline-variant/40 text-on-surface">[ JavaScript ]</span>
+<span class="px-2 py-1 bg-surface-container border border-outline-variant/40 text-on-surface">[ HTML5 Semantic UI ]</span>
+<span class="px-2 py-1 bg-surface-container border border-outline-variant/40 text-on-surface">[ CSS Grid System ]</span>
+<span class="px-2 py-1 bg-surface-container border border-outline-variant/40 text-on-surface">[ Local Storage / State ]</span>
+<span class="px-2 py-1 bg-surface-container border border-outline-variant/40 text-on-surface">[ Git Workflow ]</span>
+</div>
+</div>
+</div>
+<div class="mt-space-lg pt-space-md border-t border-outline-variant/20 flex items-center gap-space-lg font-label-md text-label-md">
+<a class="text-primary hover:text-secondary flex items-center gap-1 group py-1 border-b border-primary hover:border-secondary transition-colors" data-link="digisol-demo" href="#">
+<span>Live Demo</span>
+<span class="font-mono text-outline group-hover:text-primary transition-colors">↗</span>
+</a>
+<a class="text-on-surface-variant hover:text-primary flex items-center gap-1 group py-1 border-b border-outline-variant hover:border-primary transition-colors" data-link="digisol-repo" href="#">
+<span>GitHub Repository</span>
+<span class="font-mono text-outline group-hover:text-primary transition-colors">↗</span>
+</a>
+</div>
+</div>
+<!-- Right Visual Preview Mockup -->
+<div class="lg:col-span-7 bg-surface-container p-space-md md:p-space-lg flex flex-col justify-center">
+<div class="w-full bg-background border border-outline-variant/50 shadow-md">
+<div class="h-8 bg-surface-container-low border-b border-outline-variant/30 px-3 flex items-center justify-between font-label-sm text-[11px] text-outline">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-outline-variant"></span>
+<span class="w-2 h-2 rounded-full bg-outline-variant"></span>
+<span class="w-2 h-2 rounded-full bg-outline-variant"></span>
+<span class="ml-2 font-mono text-on-surface">digisol.enterprise/admin-reconciliation</span>
+</div>
+<span class="text-primary font-mono">[ ROLE: SUPERADMIN ]</span>
+</div>
+<div class="p-space-md flex flex-col gap-space-md">
+<div class="flex items-center justify-between border-b border-outline-variant/20 pb-2">
+<div>
+<h4 class="font-label-md text-label-md text-primary uppercase">Revenue Reconciliation Engine</h4>
+<p class="font-label-sm text-[11px] text-outline">Terminal Session ID: #DS-8829-QX</p>
+</div>
+<span class="px-2 py-0.5 bg-surface-container border border-outline-variant font-label-sm text-[10px] text-primary">AUDITED</span>
+</div>
+<div class="grid grid-cols-2 gap-2 text-[11px] font-label-sm">
+<div class="p-2.5 bg-surface-container-lowest border border-outline-variant/30 flex flex-col gap-1">
+<span class="text-outline uppercase text-[9px]">Inventory Depletion</span>
+<span class="font-mono text-primary text-[13px]">412 units (-3.4%)</span>
+<div class="w-full bg-surface-container-high h-1 mt-1">
+<div class="bg-primary h-1" style="width: 78%;"></div>
+</div>
+</div>
+<div class="p-2.5 bg-surface-container-lowest border border-outline-variant/30 flex flex-col gap-1">
+<span class="text-outline uppercase text-[9px]">Gross Settlement</span>
+<span class="font-mono text-primary text-[13px]">$18,450.00</span>
+<div class="w-full bg-surface-container-high h-1 mt-1">
+<div class="bg-emerald-400 h-1" style="width: 92%;"></div>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant/30 p-2.5 font-label-sm text-[10px] flex flex-col gap-1 font-mono">
+<div class="text-outline flex justify-between">
+<span>[08:14] SYS_AUTH: Admin login confirmed via IP 197.210.xx</span>
+<span class="text-primary">OK</span>
+</div>
+<div class="text-outline flex justify-between">
+<span>[10:30] POS_SYNC: 147 tickets written to local storage cache</span>
+<span class="text-primary">COMMITTED</span>
+</div>
+<div class="text-outline flex justify-between">
+<span>[12:00] RECONCILE: Daily threshold matched zero variance</span>
+<span class="text-emerald-400">VERIFIED</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- PROJECT 3: UPCOMING / UI PLAYGROUND -->
+<div class="border border-outline-variant/30 bg-surface-container-lowest p-space-md md:p-space-lg flex flex-col md:flex-row md:items-center justify-between gap-space-lg hover:border-primary transition-colors" data-reveal>
+<div class="max-w-2xl">
+<div class="flex items-center gap-space-sm mb-space-xs font-label-sm text-label-sm">
+<span class="px-2 py-0.5 border border-outline-variant text-primary font-mono">[ 03 ]</span>
+<span class="text-outline uppercase tracking-wider">Experimental Lab</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">
+              PORTFOLIO V1 &amp; UI PLAYGROUND
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              An ongoing experimental laboratory exploring component micro-interactions, responsive typography scaling, fluid spacing mathematics, and minimal architectural design systems.
+            </p>
+<div class="flex flex-wrap gap-1.5 font-label-sm text-label-sm">
+<span class="px-2 py-0.5 bg-surface-container border border-outline-variant/40 text-on-surface">[ Semantic HTML ]</span>
+<span class="px-2 py-0.5 bg-surface-container border border-outline-variant/40 text-on-surface">[ Vanilla JS ]</span>
+<span class="px-2 py-0.5 bg-surface-container border border-outline-variant/40 text-on-surface">[ Modern CSS Architecture ]</span>
+</div>
+</div>
+<div class="flex items-center gap-space-md font-label-md text-label-md shrink-0">
+<a class="text-primary hover:text-secondary border-b border-primary hover:border-secondary py-1 transition-colors" data-link="lab-case-study" href="#">
+              Case Study ↗
+            </a>
+<a class="text-on-surface-variant hover:text-primary border-b border-outline-variant hover:border-primary py-1 transition-colors" data-link="lab-repo" href="#">
+              GitHub ↗
+            </a>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- ==================== EXPERIENCE & SERVICES SECTION ==================== -->
+<section class="w-full border-b border-outline-variant/30 py-space-xl scroll-mt-20" id="experience">
+<div class="max-w-7xl mx-auto px-margin md:px-gutter-desktop">
+<div class="font-label-sm text-label-sm uppercase tracking-widest text-outline mb-space-lg flex items-center gap-space-xs">
+<span>[ 04 ]</span>
+<span class="h-px w-8 bg-outline-variant/50"></span>
+<span>What I Do &amp; Experience</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<div class="lg:col-span-4" data-reveal>
+<h2 class="font-headline-md text-headline-md text-primary leading-snug">
+            Engineering capabilities honed through structured academic practice and live client executions.
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-md">
+            Available for software engineering internships, junior frontend roles, contract deliveries, and freelance technical engagements.
+          </p>
+</div>
+<div class="lg:col-span-8 flex flex-col divide-y divide-outline-variant/30 border-y border-outline-variant/30">
+<!-- Item 1 -->
+<div class="py-space-md grid grid-cols-1 md:grid-cols-12 gap-space-xs items-baseline hover:bg-surface-container-low/40 px-space-xs transition-colors" data-reveal>
+<div class="md:col-span-4 font-headline-sm text-[1.1rem] text-primary">
+              Frontend Development
+            </div>
+<div class="md:col-span-8 font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Translating interface specifications into clean, accessible, and standards-compliant production code. Structuring modular component hierarchies with low cognitive overhead.
+            </div>
+</div>
+<!-- Item 2 -->
+<div class="py-space-md grid grid-cols-1 md:grid-cols-12 gap-space-xs items-baseline hover:bg-surface-container-low/40 px-space-xs transition-colors" data-reveal>
+<div class="md:col-span-4 font-headline-sm text-[1.1rem] text-primary">
+              Responsive Web Systems
+            </div>
+<div class="md:col-span-8 font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Crafting fluid layouts rigorously verified across small touchscreens, tablets, laptops, and ultra-wide monitor viewports without visual compromise.
+            </div>
+</div>
+<!-- Item 3 -->
+<div class="py-space-md grid grid-cols-1 md:grid-cols-12 gap-space-xs items-baseline hover:bg-surface-container-low/40 px-space-xs transition-colors" data-reveal>
+<div class="md:col-span-4 font-headline-sm text-[1.1rem] text-primary">
+              Interactive Interfaces
+            </div>
+<div class="md:col-span-8 font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Implementing subtle, purposeful DOM micro-interactions, robust input validations, accessible keyboard navigation controls, and snappy state feedback loops.
+            </div>
+</div>
+<!-- Item 4 -->
+<div class="py-space-md grid grid-cols-1 md:grid-cols-12 gap-space-xs items-baseline hover:bg-surface-container-low/40 px-space-xs transition-colors" data-reveal>
+<div class="md:col-span-4 font-headline-sm text-[1.1rem] text-primary">
+              UI System Implementation
+            </div>
+<div class="md:col-span-8 font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Bridging design tokens, mathematical spacing scales, color contrast compliance, and front-end engineering deliverables with high-fidelity precision.
+            </div>
+</div>
+<!-- Item 5 -->
+<div class="py-space-md grid grid-cols-1 md:grid-cols-12 gap-space-xs items-baseline hover:bg-surface-container-low/40 px-space-xs transition-colors" data-reveal>
+<div class="md:col-span-4 font-headline-sm text-[1.1rem] text-primary">
+              Freelance Engagements
+            </div>
+<div class="md:col-span-8 font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Collaborating directly with small businesses and individual clients to clarify technical requirements, architect custom web solutions, and deliver performant codebases on schedule.
+            </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ==================== CONTACT SECTION ==================== -->
+<section class="w-full py-space-xl scroll-mt-20" id="contact">
+<div class="max-w-7xl mx-auto px-margin md:px-gutter-desktop">
+<div class="font-label-sm text-label-sm uppercase tracking-widest text-outline mb-space-lg flex items-center gap-space-xs">
+<span>[ 05 ]</span>
+<span class="h-px w-8 bg-outline-variant/50"></span>
+<span>Get In Touch</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- Left Side: Copy and Channels -->
+<div class="lg:col-span-5 flex flex-col gap-space-md" data-reveal>
+<h2 class="font-headline-md text-headline-md text-primary leading-tight">
+            Have a project in mind, an internship opportunity, or want to discuss frontend engineering? Let’s connect.
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            I am currently open to software engineering internships, junior frontend roles, and select freelance client engagements.
+          </p>
+<!-- Contact Directory List -->
+<div class="mt-space-md border-t border-outline-variant/30 pt-space-md flex flex-col gap-space-sm font-label-md text-label-md">
+<div class="flex items-center justify-between gap-space-sm py-2 border-b border-outline-variant/20">
+<span class="text-outline uppercase text-[11px]">Primary Dispatch:</span>
+<span class="flex items-center gap-space-xs min-w-0">
+<a class="text-primary hover:underline font-mono truncate" href="mailto:marvelousnsikaksolomon@gmail.com">
+                marvelousnsikaksolomon@gmail.com
+              </a>
+<button aria-label="Copy email address" class="shrink-0 w-7 h-7 flex items-center justify-center text-outline hover:text-primary transition-colors" id="copyEmailBtn" type="button">
+<span class="material-symbols-outlined text-[16px]" id="copyEmailIcon">content_copy</span>
+</button>
+</span>
+</div>
+<div class="flex items-center justify-between py-2 border-b border-outline-variant/20">
+<span class="text-outline uppercase text-[11px]">Source Repositories:</span>
+<a class="text-primary hover:underline font-mono" href="https://github.com/marvelous-solomon" rel="noopener noreferrer" target="_blank">
+                github.com/marvelous-solomon
+              </a>
+</div>
+<div class="flex items-center justify-between py-2 border-b border-outline-variant/20">
+<span class="text-outline uppercase text-[11px]">Professional Network:</span>
+<a class="text-primary hover:underline font-mono" href="https://linkedin.com/in/marvelous-solomon" rel="noopener noreferrer" target="_blank">
+                linkedin.com/in/marvelous-solomon
+              </a>
+</div>
+<div class="flex items-center gap-space-xs text-outline font-label-sm text-label-sm mt-space-xs">
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+<span>Typical turnaround: Responding within 24 hours.</span>
+</div>
+</div>
+</div>
+<!-- Right Side: Contact Form -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-space-md md:p-space-lg border border-outline-variant/40" data-reveal>
+<div class="mb-space-md pb-space-sm border-b border-outline-variant/20 flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">// DISPATCH TRANSMISSION FORM</span>
+<span class="font-mono text-outline text-[11px]">[ UTF-8 ]</span>
+</div>
+<form class="flex flex-col gap-space-md" id="contact-form" novalidate>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-sm text-label-sm text-outline uppercase tracking-wider" for="name">
+                Full Name / Entity *
+              </label>
+<input autocomplete="name" class="w-full bg-surface border border-outline-variant/60 focus:border-primary text-primary px-3.5 py-2.5 font-label-md text-label-md outline-none transition-colors placeholder:text-outline-variant" id="name" name="name" placeholder="e.g. Eleanor Vance" required="" type="text"/>
+<p class="font-label-sm text-label-sm text-error min-h-[1rem]" data-error-for="name"></p>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-sm text-label-sm text-outline uppercase tracking-wider" for="email">
+                Email Address *
+              </label>
+<input autocomplete="email" class="w-full bg-surface border border-outline-variant/60 focus:border-primary text-primary px-3.5 py-2.5 font-label-md text-label-md outline-none transition-colors placeholder:text-outline-variant" id="email" name="email" placeholder="e.g. eleanor@studio.org" required="" type="email"/>
+<p class="font-label-sm text-label-sm text-error min-h-[1rem]" data-error-for="email"></p>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-sm text-label-sm text-outline uppercase tracking-wider" for="message">
+                Brief / Inquiry Details *
+              </label>
+<textarea class="w-full bg-surface border border-outline-variant/60 focus:border-primary text-primary px-3.5 py-2.5 font-label-md text-label-md outline-none transition-colors resize-y placeholder:text-outline-variant" id="message" maxlength="2000" name="message" placeholder="Outline your project scope, engineering requirements, or opportunity..." required="" rows="5"></textarea>
+<div class="flex items-center justify-between">
+<p class="font-label-sm text-label-sm text-error min-h-[1rem]" data-error-for="message"></p>
+<span class="font-label-sm text-label-sm text-outline" id="messageCount">0 / 2000</span>
+</div>
+</div>
+<div class="pt-space-xs flex items-center justify-between gap-space-sm">
+<button class="font-label-md text-label-md px-8 py-3.5 bg-primary text-on-primary hover:bg-surface-tint transition-all uppercase tracking-wider font-medium cursor-pointer" id="submit-btn" type="submit">
+                Send Message [ → ]
+              </button>
+<span class="font-label-sm text-label-sm text-outline hidden sm:inline">Encrypted Transmission</span>
+</div>
+<p aria-live="polite" class="font-label-sm text-label-sm text-outline min-h-[1rem]" id="formStatus" role="status"></p>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+</div>
+</main>
+
+<footer class="w-full bg-surface-container-lowest border-t border-outline-variant/30 mt-space-xl">
+<div class="max-w-7xl mx-auto px-margin md:px-gutter-desktop py-space-xl">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-lg items-start">
+<div class="md:col-span-5 flex flex-col gap-space-xs">
+<span class="font-label-lg text-label-lg text-primary tracking-widest uppercase">Marvelous Nsikak Solomon</span>
+<p class="font-body-sm text-body-sm text-outline max-w-sm">Crafting rigorous, performant digital interfaces and software architectures anchored in Swiss typographic discipline and structural clarity.</p>
+<div class="flex items-center gap-space-xs mt-space-sm font-label-sm text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px] text-outline">schedule</span>
+<span>LOCAL TIME: <span class="text-primary" id="localTime">UTC+1 [WAT]</span></span>
+</div>
+</div>
+<div class="md:col-span-4 flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Index / Directory</span>
+<div class="grid grid-cols-2 gap-space-xs pt-space-xs font-label-md text-label-md">
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#about">[ About ]</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#skills">[ Skills ]</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#projects">[ Projects ]</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#experience">[ Experience ]</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#contact">[ Contact ]</a>
+</div>
+</div>
+<div class="md:col-span-3 flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Network &amp; Dispatch</span>
+<div class="flex flex-col gap-space-xs pt-space-xs font-label-md text-label-md">
+<a class="text-on-surface-variant hover:text-primary transition-colors flex items-center justify-between py-0.5 border-b border-outline-variant/20" href="https://github.com/marvelous-solomon" rel="noopener noreferrer" target="_blank"><span>GitHub</span><span class="text-outline text-label-sm">[ → ]</span></a>
+<a class="text-on-surface-variant hover:text-primary transition-colors flex items-center justify-between py-0.5 border-b border-outline-variant/20" href="https://linkedin.com/in/marvelous-solomon" rel="noopener noreferrer" target="_blank"><span>LinkedIn</span><span class="text-outline text-label-sm">[ → ]</span></a>
+<a class="text-on-surface-variant hover:text-primary transition-colors flex items-center justify-between py-0.5 border-b border-outline-variant/20" href="mailto:marvelousnsikaksolomon@gmail.com"><span>Email</span><span class="text-outline text-label-sm">[ → ]</span></a>
+</div>
+</div>
+</div>
+<div class="mt-space-lg pt-space-md border-t border-outline-variant/20 flex flex-col sm:flex-row items-center justify-between gap-space-sm font-label-sm text-label-sm text-outline">
+<p>© <span id="year">2025</span> Marvelous Nsikak Solomon. Structural Craftsmanship &amp; Systems Analysis.</p>
+<!-- <p class="tracking-wider uppercase">Obsidian Engine // V2.4</p> -->
+</div>
+</div>
+</footer>
+
+<!-- Back to top -->
+<button aria-label="Back to top" class="fixed bottom-6 right-6 z-40 w-11 h-11 flex items-center justify-center bg-primary text-on-primary border border-outline-variant opacity-0 pointer-events-none translate-y-2 transition-all duration-300" id="backToTop" type="button">
+<span class="material-symbols-outlined text-[20px]">arrow_upward</span>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>

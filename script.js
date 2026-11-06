@@ -22,7 +22,7 @@
 
     // Fill these in to turn the project links on. Empty ones show "coming soon".
     links: {
-      'workhouse-demo': '',
+      'workhouse-demo': 'https://work-house-gamma.vercel.app',
       'workhouse-repo': '',
       'digisol-demo': '',
       'digisol-repo': '',
